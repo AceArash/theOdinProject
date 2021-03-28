@@ -1,2 +1,1 @@
-# pharma-website
-Local Client work
+https://www.theodinproject.com/
