@@ -1,0 +1,5 @@
+
+FULL STACK JAVASCRIPT
+Prerequisites: Foundations
+
+This path is intended to be taken after you have completed the Foundations course. This path takes you through our entire JavaScript curriculum. The courses should be taken in the order that they are displayed. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJs.
