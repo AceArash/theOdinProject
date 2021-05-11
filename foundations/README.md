@@ -1,0 +1,1 @@
+he output should now say, “nothing to commit, working tree clean”, indicating that your changes have been committed
