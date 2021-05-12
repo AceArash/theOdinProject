@@ -1,0 +1,4 @@
+0. OS: Linux Ubuntu 20.04 LTS
+1. Text Editor: VSCode.
+2. Command Line : Linux Ubuntu terminal.
+3. Version Control System: GIT and GitHub Desktop.
