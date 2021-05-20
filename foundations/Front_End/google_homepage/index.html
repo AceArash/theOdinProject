@@ -10,30 +10,61 @@
 </head>
 
 <body>
+
     <!-- Building a google homepage -->
-    <header>
-        <nav>
-            <a href="gmail-link">Gmail</a>
-            <a href="images-link">Images</a>
-            <button class="btn" href="#" ></button>
-            <button><a href="#">Sign in</a></button>
-        </nav>
-    </header>
 
+    <!-- Top Header -->
 
-    <footer>
-        <div class="left-footer">
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a></div>
-        <div class="right-footer">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+    <header class="header">
+        <div class="top-right">
+            <ul>
+                <li><a href="https://mail.google.com/" target="_blank">Gmail</a></li>
+                <li><a href="https://www.google.co.in/imghp?hl=en&ogbl" target="_blank">Images</a></li>
+                <li><img src="https://thumb.ibb.co/gykLCw/grid_menu.png" alt="Google Apps" id="google-app-grid"></li>
+                <li><button class="sign-in-btn">Sign-in</button></li>
+            </ul>
         </div>
 
+    </header>
+
+    <!-- Middle Section -->
+    <div class="middle-section">
+        <img src="./images/googlelogo.png" alt="google_image" id="google-logo-image">
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search..">
+        </div>
+        <div class="btn">
+
+            <button class="right-search-btn">Google Search</button>
+            <button class="left-search-btn">I'm Feeling Lucky</button>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="country">India</div>
+        <div class="bottom-div">
+            <div class="botton-left">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Buisness</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+            </div>
+            <div class="bottom-right">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
+
+
 </body>
 
 </html>
@@ -45,6 +76,8 @@
 
 
     underline needed yes! => --
+
+
 
     total 5 sections 
     *1> Top section: Gmail--, Images--, Google-apps[9 dots square]{button-animation}, Sign-in Blue Button(optional google account) [opacity : alpha 0.6-0.8]{extra style points ="visibility: hidden; left: 427px; top: 50px; display: none;"}
@@ -59,6 +92,6 @@
     
     
     
-    ** last section[all underline] : About, Advertising, Business,How Search works, Privacy, Terms
+    ** last section[all underline on hover] : About, Advertising, Business,How Search works, Privacy, Terms
     >> html done; css remaining!
  -->
