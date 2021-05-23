@@ -40,35 +40,62 @@ header {
   display: inline-block;
 }
 
-/* Google Logo Image */
-#google-logo-image {
-  align-items: center;
-  justify-content: center;
 
+#nav-bar #sign-in {
+  background: #4887ef;
+  margin-right: 25px;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: white
 }
 
-
-
-/* Google App Grid */
-#google-app-grid {
-  opacity: 0.5;
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-
-
-ul {
-  list-style: none;
+a {
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-a:hover {
+li.nav-links a:hover {
   text-decoration: underline;
+}
+#sign-in:hover {
+  box-shadow: 1px 1px 5px #999;
+  cursor: pointer;
+}
+
+/* Google Logo Image */
+#google-logo {
+  text-align: center;
+  display: block;
+  margin: auto 0;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+
+}
+
+.form {
+  text-align: center;
+}
+
+.form #form-search {
+  padding: 0px 8px;
+}
+
+
+footer {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  font-size: 13px;
+  padding: 13px;
+
+}
+
+footer ul a:hover {
+  text-decoration: none;
+}
+
+.footer-right {
+  float: right;
+}
+.footer-left {
+  float: left;
 }
